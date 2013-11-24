@@ -2,7 +2,7 @@ Please note that this API is really basic and (eventually) under development, ho
 
 Usage:
 
-	btc_value(); without args will return the USD prics for the last 15mins (or btc_value('USD','15m'))
+	btc_value(); without args will return the USD price for the last 15mins (or btc_value('USD','15m'))
 	btc_value('currency','type'); will return the data type for the selected currency.
 
 	Available currencies / datas are in README.md.
