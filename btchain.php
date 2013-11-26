@@ -16,5 +16,12 @@ class btchain
 		$var = $json->{$currency}->{$type};
 		return $var;
 	}
+
+	function tobtc($currency, $value)
+	{
+		$url='https://blockchain.info/tobtc?currency='.$currency.'&value='.$value;
+		$data = file_get_contents($url);
+		return $data;
+	}
 }
 ?>
